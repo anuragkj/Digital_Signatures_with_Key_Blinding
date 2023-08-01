@@ -1,0 +1,58 @@
+bwall@devBox:~/Projects/DSAHash$ g++ -Wall dsahash.cpp -o dsahash -lcrypto -O3
+bwall@devBox:~/Projects/DSAHash$ ./dsahash 
+Conducting control of 551368 SHA1 hashes
+Took 0.101209 seconds to hash 551368 times
+
+
+Generating 256 bit ECDSA key pair
+Took 0.00058794 seconds to generate key pair
+Hashing and signing "password"
+Took 0.000497103 seconds to hash and sign
+Signature: FC6E54B76DC394D8A23D9D23A1EC56DA616C74D0250B5A4E043CB534F18A0DD1A11567EC7499E7754ACF079DFAE4DB49A9E4EA2F80A81F3F091071B0564844F6
+Starting to do 551368 verification requests
+Took 303.891 seconds to verify 551368 times
+
+
+Generating 384 bit ECDSA key pair
+Took 0.000873804 seconds to generate key pair
+Hashing and signing "password"
+Took 0.000947952 seconds to hash and sign
+Signature: 944742BEA3517C86E056E5FD57F1DF06C72D5F60BBCEB366E9450BB4AC72E7B77DA38E6933DAD8DAB2326A667AEA1026A0A1613B9BF748413B4BCEB3EACF7F0CB0C24C51B101A0F0C86B74182A1A18CF01E8CE7E1A0506782C88B647DDF5C08F
+Starting to do 551368 verification requests
+Took 614.782 seconds to verify 551368 times
+
+
+Generating 521 bit ECDSA key pair
+Took 0.0018971 seconds to generate key pair
+Hashing and signing "password"
+Took 0.00207901 seconds to hash and sign
+Signature: 7D4570012AC62B6A9A36090C4E7A1C5BCB3C6C95FF545E5775CA012465AC69AA023229A408ED54850014FAE80B53E6E5A960869FCE65E506D8379D2F0B5DCE9D68488A6DB155AADD8FC3C49B311AE11A92C712B81440B6C72E416D37D309671FCCCD003619F93A8AC8A5DFF995D47C7F21EC4C88306374DE44EFF6FAAE7175E09171
+Starting to do 551368 verification requests
+Took 1324.8 seconds to verify 551368 times
+
+
+Generating 1024 bit DSA key pair
+Took 0.0648458 seconds to generate key pair
+Hashing and signing "password"
+Took 0.000165939 seconds to hash and sign
+Signature: 302C21443A91FD46E2677424829B66C9C21386A7FD5417D214479B89A59D4AEEBE389639FF43998AC18B7D47CE
+Starting to do 551368 verification requests
+Took 86.0176 seconds to verify 551368 times
+
+
+Generating 2048 bit DSA key pair
+Took 0.943462 seconds to generate key pair
+Hashing and signing "password"
+Took 0.00069499 seconds to hash and sign
+Signature: 3045220153E47C97DE814D64EDDD8E96572A198A317651CA3313EEB5822526897B36022109E6D9277FB41371D302CBB9CD744CC296AD8716E288421334BB3B15CE78346
+Starting to do 551368 verification requests
+Took 442.164 seconds to verify 551368 times
+
+
+Generating 4096 bit DSA key pair
+Took 9.57769 seconds to generate key pair
+Hashing and signing "password"
+Took 0.002563 seconds to hash and sign
+Signature: 30442201D8ED6695E1E595468907AA655B2E9ADC3A2A4AF13F4A59846AD09748598E702205F2FD78880D1E6DE889363E132CB0DFFB4D88F92A3DB3C65F18E6BA7F33D740
+Starting to do 551368 verification requests
+Took 1689.47 seconds to verify 551368 times
