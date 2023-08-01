@@ -1,5 +1,3 @@
-bwall@devBox:~/Projects/DSAHash$ g++ -Wall dsahash.cpp -o dsahash -lcrypto -O3
-bwall@devBox:~/Projects/DSAHash$ ./dsahash 
 Conducting control of 551368 SHA1 hashes
 Took 0.101209 seconds to hash 551368 times
 
