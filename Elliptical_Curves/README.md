@@ -24,7 +24,7 @@ Examples for generating and verifying the test vectors can be found [in the Make
 
 ## Performance Benchmarks
 
-To compute performance benchmarks, run:
+To compute performance benchmarks, run(in specific directory like ecdsa):
 
 ```
 $ go test -bench=.
